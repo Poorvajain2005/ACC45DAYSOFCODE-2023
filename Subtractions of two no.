@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	 float num1,num2,sub;
+     printf("enter first number:");
+     scanf("%f",&num1);
+     printf("enter second number:");
+     scanf("%f",&num2);
+     sub=num1-num2;
+     printf("sub of %f - %f =%f\n",num1,num2,sub);
+     return 0;
+     
+}
