@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{
+	    int c,x,y,a;
+	    scanf("%d%d%d",&c,&x,&y);
+	    a=c-x;
+	    a=a*y;
+	    printf("%d",a);
+	printf("\n");
+	}
+}
