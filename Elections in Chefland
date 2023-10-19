@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(void)
+{
+    int t;
+    scanf("%d",&t);
+    while(t--)
+    {
+        int a,b,c;
+        scanf("%d %d %d",&a,&b,&c);
+        if(a>50 && (a>b && a>c))
+        {
+            printf("A\n");
+        }
+        else if(b>50 && (b>a && b>c))
+        {
+            printf("B\n");
+        }
+        else if(c>50 && (c>a && c>b))
+        {
+            printf("C\n");
+        }
+        else
+        {
+            printf("NOTA\n");
+        }
+    }
+    return 0;
+}
