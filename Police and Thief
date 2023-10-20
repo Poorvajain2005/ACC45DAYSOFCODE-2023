@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int T,Y[10000],X[10000],i;
+    scanf("%d",&T);
+    if(1<=T<=1000)
+    {
+      for(i=0;i<T;i++)
+      {
+          scanf("%d %d",&X[i],&Y[i]);
+      }
+
+    }
+    for(i=0;i<T;i++)
+    {
+            if(X[i]>=Y[i])
+            {
+                printf("%d\n", X[i]-Y[i]);
+            }
+            else
+            {
+                printf("%d\n",Y[i]-X[i]);
+            }
+        }
+
+
+
+	return 0;
+}
