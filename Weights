@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main(void) 
+{
+
+	int n,p,q,r,s;
+
+	scanf("%d",&n);
+
+	while(n--)
+
+	{
+
+	    scanf("%d %d %d %d",&p,&q,&r,&s);
+
+	    if(p==q || p==r || p==s)
+
+	       printf("yes\n");
+
+	    else if(p==q+r || p==q+s || p==r+s)
+
+	        printf("yes\n");
+
+	    else if(p==q+r+s)
+
+	        printf("yes\n");
+
+	   else
+
+	     printf("no\n");
+
+	    
+
+	}
+
+	return 0;
+
+}
