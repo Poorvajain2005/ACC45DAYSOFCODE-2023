@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    int n, m, t;
+    scanf("%d", &t);
+
+    while (t--) {
+        scanf("%d%d", &n, &m);
+        int tt = n / m;
+        printf("%d\n", (tt <= 20) ? tt : 20);
+    }
+    return 0;
+}
