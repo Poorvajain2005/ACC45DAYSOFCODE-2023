@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(void)
+{
+	int t;
+	int n;
+	scanf("%d",&t);
+	while(t--){
+
+	   scanf("%d",&n);
+	   n+=5;
+	   printf("%d\n",n/7);
+	}
+	return 0;
+}
+
