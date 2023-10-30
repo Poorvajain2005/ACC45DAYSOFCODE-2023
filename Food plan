@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int t;
+    scanf("%d", &t);
+
+    while(t--)
+    {
+        int n, m;
+        scanf("%d %d", &n, &m);
+
+        float dis = 0.1 * n;
+        float dis2 = n - dis;
+
+        if(dis2 > m)
+        {
+            printf("DINING\n");
+        }
+        else if(m > dis2)
+        {
+            printf("ONLINE\n");
+        }
+        else
+        {
+            printf("EITHER\n");
+        }
+    }
+    return 0;
+}
