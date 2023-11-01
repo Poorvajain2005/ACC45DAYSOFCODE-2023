@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(void)
+{
+  	int T,N,M,buy;
+    scanf("%d",&T);
+    for(int i=0; i<T; i++)
+	{
+	    scanf("%d",&N);
+	    scanf("%d",&M);
+	    if(N<M)
+	    {
+	        buy = N;
+	        printf("%d\n",buy);
+	    }
+	    else
+	    {
+          buy = 2*(N-M)+M;
+	        printf("%d\n",buy);
+	    }
+}
+return 0;
+}
+
