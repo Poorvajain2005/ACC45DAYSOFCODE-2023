@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int T;
+   scanf("%d", &T);
+  while (T--) {
+      int X, Y, D;
+        scanf("%d %d %d", &X, &Y, &D") ;
+        int skillDifference = X > Y ? X - Y : Y - X;
+       if (skillDifference <= D) {
+           printf("YES\n");
+       } else {
+printf("NO\n");
+        }
+  }
+  return 0;
+}
+
