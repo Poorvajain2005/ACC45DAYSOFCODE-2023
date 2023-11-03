@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+
+int main(void) {
+
+	int t;
+
+	scanf("%d",&t);
+
+	while(t--) {
+
+	    int a,b;
+
+	    scanf("%d%d",&a,&b);
+
+	    int y=a*10;
+
+	    int z=b*5;
+
+	    if(y>z)
+
+	    printf("FIRST\n");
+
+	    else if(y==z)
+
+	    printf("ANY\n");
+
+	    else
+
+	    printf("SECOND\n");
+
+	}
+
+	return 0;
+
+}
+
