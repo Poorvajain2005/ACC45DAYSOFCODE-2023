@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int i,T,N,X,D,c;
+    scanf("%d\n",&T);
+    for(i=1; i<=T; i++)
+    {       scanf("%d %d %d\n",&N,&X,&D);
+        c=(N/(5*X))+D;
+        printf("%d\n",c);
+    }
+}
+
+
+
+
+
