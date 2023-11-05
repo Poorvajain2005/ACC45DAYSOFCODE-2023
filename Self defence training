@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{    int n,age[150],count=0;
+   scanf("%d",&n);
+  for(int i=0;i<n;i++)
+   {
+   scanf("%d",&age[i]);}
+	    for(int i=0;i<n;i++)
+{
+ if(age[i]>=10 && age[i]<=60)
+	        {
+	           count++;
+	        }
+	    }
+	   printf("%d\n",count);
+	}
+	return 0;
+
+}
+
